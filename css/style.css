@@ -22,6 +22,28 @@ a {
 
 /* STYLE */
 
+h1{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    border-bottom: 1px solid grey;
+}
+
+i{
+    cursor: pointer;
+}
+
 /* UTILITIES */
 
 /* DEBUG */

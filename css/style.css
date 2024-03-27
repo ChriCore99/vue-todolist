@@ -1,0 +1,27 @@
+/* RESET RULES */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* COMPONENTS */
+
+/* STYLE */
+
+/* UTILITIES */
+
+/* DEBUG */

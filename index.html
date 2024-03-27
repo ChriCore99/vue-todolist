@@ -19,11 +19,12 @@
             <div class="container">
                 <div class="card">
                     <div class="card-header">
-                        <input type="text" placeholder="aggiungi le task">
+                        <input v-model.trim="newTodo" type="text" placeholder="aggiungi le task">
+                        <div class="btn" @click="addTodo">aggiungi</div>
                     </div>
                     <div class="card-body">
                         <ul class="todo-list">
-                            <li class="todo-item" :class="todo.done === true ? 'text-decoration-line-through': ''" v-for="(todo, i) in todos">
+                            <li class="todo-item" :class="todo.done === true ? 'text-decoration-line-through': '' " @click="fatto(todo)" v-for="(todo, i) in todos">
                                 {{todo.text}}
                                 <a href="#"><i class="fa-solid fa-trash" @click="removeTodo(todo, i)"></i></a>
                             </li>

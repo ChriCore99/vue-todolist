@@ -22,7 +22,7 @@ a {
 
 /* STYLE */
 
-h1{
+h1 {
     text-align: center;
     background-color: blue;
     color: white;
@@ -30,17 +30,28 @@ h1{
     padding-bottom: 10px;
 }
 
-.todo-item{
+.todo-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-li{
-    border-bottom: 1px solid grey;
+.card-header {
+    display: flex;
+    justify-content: space-between;
 }
 
-i{
+.btn {
+    background-color: blue;
+    color: white;
+}
+
+li {
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+i {
     cursor: pointer;
 }
 
